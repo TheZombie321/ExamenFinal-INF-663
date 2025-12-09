@@ -12,7 +12,14 @@
     
     <a href="{{ route('productos.create') }}">Crear Nuevo Producto</a>
     <br><br>
-
+    <h1>Listado de Productos</h1>
+    
+    <a href="{{ route('productos.create') }}">Crear Nuevo Producto</a>
+    
+    | <a href="{{ route('productos.stockAlto') }}" style="color: green; font-weight: bold;">
+        Filtrar Stock Alto (>5)
+    </a>
+    <br><br>
     <table>
         <thead>
             <tr>
